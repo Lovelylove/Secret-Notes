@@ -1,3 +1,2 @@
-# Piang Project
-# Secret-Notes
-# Piang Project
+                                              SECRET NOTES
+This app provides you a few sharing options that with internet and without internet connection. If you don't want to upload your personal information to the internet you can share these with your own phone. Secret Notes is the easiest way to create a note and stay organized. You can protect your information like store passwords, private thoughts, birthday ideas or anything else you can think of safely using this app. This app lets you lock any note that you want to keep private from anyone else that might use your device, It is a way to create and store all your thoughts and sensitive info.You might still want to carry around a Moleskine and a lovely fountain pen because it just feels good. But that's hardly the most efficient way to take and store notes anymore, and the perfect tool is probably sitting somewhere in your pocket or your bag.
