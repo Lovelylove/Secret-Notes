@@ -1,0 +1,88 @@
+<html lang="en">
+
+  <head>
+
+
+
+    <title>Secret Notes</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <div class="col-md-20" style="background:url('picture/wood.jpg');">
+
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <a class="navbar-brand" href="homepage.html">
+			<img src="picture/logomitch.jpg" width="50" height="50" alt="">
+			</a>
+            </li>
+			<li class="nav-item ">
+              <a class="nav-link " href="create.html" >
+               Create
+              </a>
+            </li><li class="nav-item ">
+              <a class="nav-link 
+			" href="list.html" >
+               Note List
+              </a>
+            </li>
+			<li class="nav-item ">
+              <a class="nav-link " href="Delete.html" >
+               Delete
+              </a>
+            </li>
+          </ul>
+        </div>
+		</button>
+    </nav><br/><br/>
+<body style="background:url('picture/wood.jpg');">
+
+
+
+<br><br>
+
+	<center><form>
+  <form name="notes">
+					<center>
+					<label for="validationServer03">Create Notes</label>
+					<br/><textarea class="form-control is-invalid " id="exampleFormControlTextarea1" style="height:100px; width:300px;" name=name placeholder="Enter Notes" ></textarea>
+					<div class="invalid-feedback">
+						Please provide a Notes
+					  </div>
+					<br/><h5>Date:</h5>
+					<input type="date" name="bday">
+					<div class="container">
+					 <label for="validationServer03">time</label>
+					  <input type="time" class="form-control is-invalid" style="width:140px;" name="usr_time" id="validationServer03" placeholder="City" required>
+					  <div class="invalid-feedback">
+						Please provide a valid time.
+					  </div>
+					</div>				
+				<div class="row">
+				<div class="col-4"></div>
+				<div class="col-4">			
+				<button type="submit" class="btn btn-success btn-sm" onclick= "SaveItem()">Save</button></div>			 		
+				<div class="col-4"></div>
+				</center>
+				</div>
+		</div>
+			</form></center>
+			</form>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+	</div>
+	</div>
+    </div>
+	</div>
+	<script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</form>
+</html>
